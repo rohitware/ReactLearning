@@ -1,0 +1,10 @@
+function MyFunctionComponent() {
+    return (
+        <>
+            <h1> I am in function component</h1>
+            <h1> I am in react function component</h1>
+        </>
+    );
+}
+
+export default MyFunctionComponent;
