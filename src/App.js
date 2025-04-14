@@ -4,10 +4,10 @@ import MyClassComponent from './components/MyClassComponent';
 
 function App() {
   return (
-    <div>
+    <>
       <MyFunctionComponent />
       <MyClassComponent />
-    </div>
+    </>
   );
 }
 
