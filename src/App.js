@@ -11,6 +11,7 @@ import Body2 from './propsInReact/Body2';
 import Header from './propsInReact/Header';
 import Footer from './propsInReact/Footer';
 import Account from './propsInReact/Account';
+import FavoriteColor from './StateInReact/FavoriteColor';
 
 function App() {
   const message = "I am from the Parent Component";
@@ -35,6 +36,8 @@ function App() {
       <Child greeting={message} />
 
       <StateInFuncComp />
+
+      <FavoriteColor/>
     </>
   );
 }
