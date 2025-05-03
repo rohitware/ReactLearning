@@ -1,17 +1,18 @@
-import './App.css';
-import MyFunctionComponent from './components/MyFunctionComonent';
-import MyClassComponent from './components/MyClassComponent';
-import SimpleCalculator from './components/SimpleCalculator';
-import MathOperations from './components/MathOperations';
-import Counter from './components/Counter';
-import Child from './components/childComponent';
-import StateInFuncComp from './StateInReact/StateInFuncComp';
-import Body1 from './propsInReact/Body1';
-import Body2 from './propsInReact/Body2';
-import Header from './propsInReact/Header';
-import Footer from './propsInReact/Footer';
-import Account from './propsInReact/Account';
-import FavoriteColor from './StateInReact/FavoriteColor';
+import "./App.css";
+import MyFunctionComponent from "./components/MyFunctionComonent";
+import MyClassComponent from "./components/MyClassComponent";
+import SimpleCalculator from "./components/SimpleCalculator";
+import MathOperations from "./components/MathOperations";
+import Counter from "./components/Counter";
+import Child from "./components/childComponent";
+import StateInFuncComp from "./StateInReact/StateInFuncComp";
+import Body1 from "./propsInReact/Body1";
+import Body2 from "./propsInReact/Body2";
+import Header from "./propsInReact/Header";
+import Footer from "./propsInReact/Footer";
+import Account from "./propsInReact/Account";
+import FavoriteColor from "./StateInReact/FavoriteColor";
+import PackingList from "./conditionalRendering/PackingList";
 
 function App() {
   const message = "I am from the Parent Component";
@@ -37,7 +38,9 @@ function App() {
 
       <StateInFuncComp />
 
-      <FavoriteColor/>
+      <FavoriteColor />
+
+      <PackingList />
     </>
   );
 }
