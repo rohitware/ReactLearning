@@ -13,6 +13,8 @@ import Footer from "./propsInReact/Footer";
 import Account from "./propsInReact/Account";
 import FavoriteColor from "./StateInReact/FavoriteColor";
 import PackingList from "./conditionalRendering/PackingList";
+import Hooks from "./components/Hooks";
+import RefHook from "./components/RefHooks";
 
 function App() {
   const message = "I am from the Parent Component";
@@ -41,6 +43,10 @@ function App() {
       <FavoriteColor />
 
       <PackingList />
+
+      <Hooks/>
+
+      <RefHook/>
     </>
   );
 }
