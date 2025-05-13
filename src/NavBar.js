@@ -54,6 +54,10 @@ const NavBar = () => {
                         <Link to="hook">hook</Link>
                     </li>
 
+                    <li>
+                        <Link to= "useEffect"> Use Effect</Link>
+                    </li>
+
 
                 </ul>
             </nav>

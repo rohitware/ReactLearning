@@ -15,6 +15,7 @@ import FavoriteColor from "./StateInReact/FavoriteColor";
 import PackingList from "./conditionalRendering/PackingList";
 import Hooks from "./components/Hooks";
 import RefHook from "./components/RefHooks";
+import UseEffectCounter from "./hooks/UseEffectCounter";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./NavBar";
@@ -66,6 +67,7 @@ function App() {
           <Route path="list" element={<PackingList />} />
           <Route path="hook" element={<Hooks />} />
           <Route path="refhook" element={<RefHook />} />
+          <Route path="useEffect" element= {<UseEffectCounter />} />
         </Routes>
       </BrowserRouter>
     </>
